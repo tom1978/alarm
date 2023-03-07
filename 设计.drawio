@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T01:35:33.170Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Brw8RV5ltDBUDqb_WsFH" version="21.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-07T01:38:45.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ugdn6pR67AouIRIJpj_S" version="21.0.2" type="github" pages="2">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1115" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="mOruX_GzIYojNORpQygu-7" value="定义事件源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="105" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mOruX_GzIYojNORpQygu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mOruX_GzIYojNORpQygu-9" target="mOruX_GzIYojNORpQygu-10" edge="1">
+        <mxCell id="mOruX_GzIYojNORpQygu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeColor=#3333FF;fontColor=#007FFF;fillColor=#d5e8d4;" parent="1" source="mOruX_GzIYojNORpQygu-9" target="mOruX_GzIYojNORpQygu-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-9" value="定义事件模型&lt;br&gt;(元数据)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -84,6 +84,15 @@
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="551" y="185" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2kBlK-FWfxOSTdEt7PT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#007FFF;strokeColor=#3333FF;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89" y="14.5" as="sourcePoint" />
+            <mxPoint x="149" y="14.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2kBlK-FWfxOSTdEt7PT-6" value="操作流" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
