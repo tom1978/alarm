@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:15:51.309Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nYGZg64DA43uEBG2F9PX" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-07T08:16:49.113Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0KNZMwPsz4QAkwZ9a6up" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1115" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -467,11 +467,20 @@
         <mxCell id="7HGjDA-4uBnpTRqDVmde-41" value="静默" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="493" y="500" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-42" target="7HGjDA-4uBnpTRqDVmde-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-42" value="alert-pre-notify" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="530" width="90" height="30" as="geometry" />
+          <mxGeometry x="663" y="530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-44" value="待发送" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="675" y="500" width="80" height="30" as="geometry" />
+          <mxGeometry x="668" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-45" value="alert-notified" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-46" value="已发送" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="500" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
