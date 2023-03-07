@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T07:41:37.361Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bR78DtS-m3OqdCBiskAj" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:47:15.122Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HL4IwZBRw0_2zkF38aQL" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1115" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -351,6 +351,30 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-1" target="7HGjDA-4uBnpTRqDVmde-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-1" value="告警信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-3" target="7HGjDA-4uBnpTRqDVmde-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-3" value="合并策略(缓存)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-4" value="判断是否匹配&lt;br&gt;合并策略条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="135" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-5" target="7HGjDA-4uBnpTRqDVmde-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-5" value="合并策略计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HGjDA-4uBnpTRqDVmde-10" value="标记告警信息为待发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
