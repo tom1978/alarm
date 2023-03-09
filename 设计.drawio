@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:56:55.759Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OW117AVRNKkRaQZy_IwW" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-09T06:35:46.715Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vKkbFt7b1Zh0dpuzqUqZ" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
           <mxGeometry x="600" y="335" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-42" value="告警通知" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="335" width="90" height="40" as="geometry" />
+          <mxGeometry x="950" y="334" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-1" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="970" y="438" width="108" height="80" as="geometry" />
@@ -104,16 +104,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-15" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="105" width="90" height="40" as="geometry" />
+          <mxGeometry x="740" y="17" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-1" value="通知策略" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="105" width="90" height="40" as="geometry" />
+          <mxGeometry x="690" y="105" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AYFe1LkNhk6pxs-Rbo1C-7" target="AYFe1LkNhk6pxs-Rbo1C-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-7" value="通知渠道" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="22" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SUWMHciUiN1ln3H69Bqs-1" value="告警降噪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="334" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
