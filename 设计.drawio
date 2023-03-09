@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T06:35:46.715Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vKkbFt7b1Zh0dpuzqUqZ" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-09T06:39:21.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tv9xZBQCiVufZyvERz_n" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
-    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,14 +73,17 @@
         <mxCell id="mOruX_GzIYojNORpQygu-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;数据格式&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;数据库表行&lt;br&gt;JSON&lt;br&gt;CSV&lt;br&gt;XML&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="180" y="356" width="130" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOruX_GzIYojNORpQygu-40" target="SUWMHciUiN1ln3H69Bqs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-40" value="告警记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="335" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-42" value="告警通知" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="334" width="90" height="40" as="geometry" />
+          <mxGeometry x="950" y="335" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-1" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="970" y="438" width="108" height="80" as="geometry" />
+          <mxGeometry x="990" y="510" width="108" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#007FFF;strokeColor=#3333FF;fillColor=#d5e8d4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -115,8 +118,20 @@
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-7" value="通知渠道" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="22" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SUWMHciUiN1ln3H69Bqs-1" value="告警降噪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="334" width="90" height="40" as="geometry" />
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SUWMHciUiN1ln3H69Bqs-1" target="mOruX_GzIYojNORpQygu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUWMHciUiN1ln3H69Bqs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="303" width="130" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-1" value="告警合并" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="316" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-2" value="告警抑制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="363" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="N9vnKGzAlBT49hK8Uw0d-2" target="N9vnKGzAlBT49hK8Uw0d-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -350,7 +365,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0ZUike_UPeLgUvRnHep9" name="告警降噪">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,7 +524,7 @@
         <mxCell id="7HGjDA-4uBnpTRqDVmde-57" value="告警降噪(合并、抑制、静默)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="570" width="166" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DHXHxuFCBVeNddjak8cY-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="7HGjDA-4uBnpTRqDVmde-39">
+        <mxCell id="DHXHxuFCBVeNddjak8cY-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" target="7HGjDA-4uBnpTRqDVmde-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="320" as="sourcePoint" />
             <mxPoint x="230" y="400" as="targetPoint" />
@@ -518,7 +533,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DHXHxuFCBVeNddjak8cY-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-30" target="7HGjDA-4uBnpTRqDVmde-40">
+        <mxCell id="DHXHxuFCBVeNddjak8cY-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7HGjDA-4uBnpTRqDVmde-30" target="7HGjDA-4uBnpTRqDVmde-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="279" y="330" as="sourcePoint" />
             <mxPoint x="280" y="540" as="targetPoint" />
