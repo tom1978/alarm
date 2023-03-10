@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T02:28:35.456Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5CtsMsiAnyoWfwWdu05R" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-10T02:30:14.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hy4uwWoW3o7aoY2pfJeD" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="4iDX63rbDuVrgUjDsWIF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AYFe1LkNhk6pxs-Rbo1C-1" target="mOruX_GzIYojNORpQygu-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AYFe1LkNhk6pxs-Rbo1C-1" value="通知策略" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AYFe1LkNhk6pxs-Rbo1C-1" value="通知策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="690" y="105" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AYFe1LkNhk6pxs-Rbo1C-7" target="AYFe1LkNhk6pxs-Rbo1C-1" edge="1">
@@ -127,10 +127,10 @@
         <mxCell id="SUWMHciUiN1ln3H69Bqs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="303" width="130" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="N9vnKGzAlBT49hK8Uw0d-1" value="告警合并" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-1" value="告警合并" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="760" y="316" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N9vnKGzAlBT49hK8Uw0d-2" value="告警抑制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="N9vnKGzAlBT49hK8Uw0d-2" value="告警抑制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="760" y="363" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N9vnKGzAlBT49hK8Uw0d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="N9vnKGzAlBT49hK8Uw0d-2" target="N9vnKGzAlBT49hK8Uw0d-2">
@@ -141,7 +141,7 @@
             <mxPoint x="800" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4iDX63rbDuVrgUjDsWIF-1" value="降噪策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4iDX63rbDuVrgUjDsWIF-1" value="降噪策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="650" y="195" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
