@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T02:30:14.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hy4uwWoW3o7aoY2pfJeD" version="21.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-10T02:34:49.884Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-pTzXg38o6iryYeJVfAw" version="21.0.2" type="github" pages="3">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ajzhrPVUtSA5EL2jIO49-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="180" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ajzhrPVUtSA5EL2jIO49-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="10" width="260" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="95" width="229" height="60" as="geometry" />
         </mxCell>
@@ -77,10 +83,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-40" value="告警记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="335" width="90" height="40" as="geometry" />
+          <mxGeometry x="585" y="335" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mOruX_GzIYojNORpQygu-42" value="告警通知" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="335" width="90" height="40" as="geometry" />
+          <mxGeometry x="990" y="334" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-1" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="990" y="510" width="108" height="80" as="geometry" />
@@ -107,19 +113,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p2kBlK-FWfxOSTdEt7PT-15" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="22" width="90" height="40" as="geometry" />
+          <mxGeometry x="1060" y="22" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4iDX63rbDuVrgUjDsWIF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AYFe1LkNhk6pxs-Rbo1C-1" target="mOruX_GzIYojNORpQygu-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-1" value="通知策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="690" y="105" width="90" height="40" as="geometry" />
+          <mxGeometry x="970" y="130" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AYFe1LkNhk6pxs-Rbo1C-7" target="AYFe1LkNhk6pxs-Rbo1C-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AYFe1LkNhk6pxs-Rbo1C-7" value="通知渠道" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="22" width="90" height="40" as="geometry" />
+          <mxGeometry x="930" y="27" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="N9vnKGzAlBT49hK8Uw0d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SUWMHciUiN1ln3H69Bqs-1" target="mOruX_GzIYojNORpQygu-42">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +148,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4iDX63rbDuVrgUjDsWIF-1" value="降噪策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="650" y="195" width="90" height="40" as="geometry" />
+          <mxGeometry x="750" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajzhrPVUtSA5EL2jIO49-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajzhrPVUtSA5EL2jIO49-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajzhrPVUtSA5EL2jIO49-4" value="消息模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="170" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
