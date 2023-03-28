@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T02:32:20.891Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S_AE4LkqW7CS4OsPOILA" version="21.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-28T02:34:21.238Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="d_ONVVOq5bMYlUUxNcs7" version="21.1.1" type="github" pages="4">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -397,10 +397,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="240" width="170" height="190" as="geometry" />
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="250" y="240" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3399FF;dashed=1;" parent="1" vertex="1">
@@ -475,7 +475,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-19" value="根据策略创建新的合并组(首次创建)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="812" y="390" width="110" height="30" as="geometry" />
+          <mxGeometry x="812" y="370" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-26" value="更新缓存" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="805" y="156" width="60" height="30" as="geometry" />
@@ -586,6 +586,9 @@
         </mxCell>
         <mxCell id="E9Cn0ydhOiMxtkPZBGa6-5" value="合并计算过程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-7" value="缓存处理服务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
