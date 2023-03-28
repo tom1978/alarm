@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T03:37:30.863Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cR390TifuRX0iDuyphh1" version="21.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-28T04:26:11.611Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X6mbNXMh4LwIv8qRqPCZ" version="21.1.1" type="github" pages="4">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -645,7 +645,7 @@
             <mxPoint x="520" y="347" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZcdULoCu-tpaEsqylLkG-1" value="消息到期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZcdULoCu-tpaEsqylLkG-1" value="消息到期" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="307" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZcdULoCu-tpaEsqylLkG-5" value="模板服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
