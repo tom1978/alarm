@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T03:28:44.410Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6NhjznXK38E7KjPGwpm5" version="21.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-28T03:31:49.564Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Dr_JXOqKMbjduEbdUu-Y" version="21.1.1" type="github" pages="4">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -666,18 +666,6 @@
         <mxCell id="0nlwU3s4cpCXwkyD-Huq-8" value="策略计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="357" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0nlwU3s4cpCXwkyD-Huq-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="497" y="280" width="120" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="0nlwU3s4cpCXwkyD-Huq-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0nlwU3s4cpCXwkyD-Huq-10">
-          <mxGeometry width="120" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="ZcdULoCu-tpaEsqylLkG-2" value="获取合并组ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0nlwU3s4cpCXwkyD-Huq-10">
-          <mxGeometry x="17" y="20" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZcdULoCu-tpaEsqylLkG-3" value="缓存中获取合并组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0nlwU3s4cpCXwkyD-Huq-10">
-          <mxGeometry x="17" y="80" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="0nlwU3s4cpCXwkyD-Huq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="617" y="347" as="sourcePoint" />
@@ -687,6 +675,18 @@
               <mxPoint x="637" y="347" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0nlwU3s4cpCXwkyD-Huq-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="280" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcdULoCu-tpaEsqylLkG-2" value="获取合并组ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="293" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcdULoCu-tpaEsqylLkG-3" value="获取缓存合并组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0nlwU3s4cpCXwkyD-Huq-14" value="删除缓存合并组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="384" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
