@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T02:43:30.008Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WroS6vw4-XL_CTyFjXHT" version="21.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-28T02:44:54.803Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4VgMqID7LpYCIelqvcw4" version="21.1.1" type="github" pages="4">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -598,6 +598,9 @@
         </mxCell>
         <mxCell id="MAsYUGyudTswr5r5pn0y-2" value="新增合并组放入" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="916" y="150" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iuaCvLk2QO5VCdjC7C9A-1" value="更新数据库Alarm记录的当前状态" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=75.6;dy=13;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="230" width="140" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
