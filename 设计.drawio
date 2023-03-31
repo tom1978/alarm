@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T04:26:11.611Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X6mbNXMh4LwIv8qRqPCZ" version="21.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-31T04:48:57.257Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lOQkCH42um1us07fzIi0" version="21.1.1" type="github" pages="4">
   <diagram name="架构图" id="fyfxFs40vQIkgWjK6ug6">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,14 +393,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0ZUike_UPeLgUvRnHep9" name="告警降噪">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="780" y="240" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="250" y="240" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3399FF;dashed=1;" parent="1" vertex="1">
@@ -466,7 +466,7 @@
         <mxCell id="7HGjDA-4uBnpTRqDVmde-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7HGjDA-4uBnpTRqDVmde-18" target="7HGjDA-4uBnpTRqDVmde-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MAsYUGyudTswr5r5pn0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HGjDA-4uBnpTRqDVmde-18" target="E9Cn0ydhOiMxtkPZBGa6-8">
+        <mxCell id="MAsYUGyudTswr5r5pn0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7HGjDA-4uBnpTRqDVmde-18" target="E9Cn0ydhOiMxtkPZBGa6-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7HGjDA-4uBnpTRqDVmde-18" value="告警信息加入到合并组" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -581,29 +581,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-1" value="放在合并组的告警是待发消息，一个合并组表示一批告警合并成一个消息发出" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=46.4;dy=12;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-1" value="放在合并组的告警是待发消息，一个合并组表示一批告警合并成一个消息发出" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=46.4;dy=12;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="630" y="74" width="130" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-2" value="合并策略通过管理界面设置，保存在数据库，同时在Redis中缓存" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=7.8;dy=12;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-2" value="合并策略通过管理界面设置，保存在数据库，同时在Redis中缓存" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=7.8;dy=12;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="100" width="140" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-5" value="合并计算过程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-5" value="合并计算过程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="330" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-7" value="缓存处理服务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-7" value="缓存处理服务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="410" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-8" value="通知模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="E9Cn0ydhOiMxtkPZBGa6-8" value="通知模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="1030" y="153" width="110" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="MAsYUGyudTswr5r5pn0y-2" value="合并后的告警信息" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MAsYUGyudTswr5r5pn0y-2" value="合并后的告警信息" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="157" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iuaCvLk2QO5VCdjC7C9A-1" value="更新数据库Alarm记录的当前状态" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=75.6;dy=13;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="iuaCvLk2QO5VCdjC7C9A-1" value="更新数据库Alarm记录的当前状态" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=75.6;dy=13;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="1080" y="230" width="140" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="iuaCvLk2QO5VCdjC7C9A-2" value="合并后的告警信息进入通知模块根据通知策略进行发送" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=75.6;dy=13;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="iuaCvLk2QO5VCdjC7C9A-2" value="合并后的告警信息进入通知模块根据通知策略进行发送" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=75.6;dy=13;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="1015" y="92" width="140" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="uKzWdLcO8v4iU_LCXu_V-1" value="&lt;h2 style=&quot;padding: 0px 0px 10px; margin: 0px; box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 20px; color: rgb(55, 61, 65); font-size: 20px; border-bottom: initial; position: relative; text-align: start; background-color: rgb(255, 255, 255);&quot; data-spm-anchor-id=&quot;a2c63.p38356.0.i20.27cfad12lpDjp0&quot; id=&quot;title-c01-rz0-xtp&quot; class=&quot;title sectiontitle&quot;&gt;原理说明&lt;/h2&gt;&lt;div style=&quot;padding: 0px; margin: 0px; box-sizing: border-box; color: rgb(24, 24, 24); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; id=&quot;p-4f7-0ot-9hi&quot; class=&quot;p&quot;&gt;告警管理系统在处理告警时，会为每个告警计算一个指纹信息（Fingerprint），拥有相同指纹的告警被认为是相同的告警。告警的指纹信息计算依赖如下告警属性：&lt;ul style=&quot;padding: 0px 0px 0px 25px; margin: 0px 0px 25px; box-sizing: border-box; list-style: none;&quot; data-spm-anchor-id=&quot;a2c63.p38356.0.i25.27cfad12lpDjp0&quot; id=&quot;ul-kja-hzw-lg8&quot; class=&quot;ul&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 6px 0px; box-sizing: border-box; list-style: disc;&quot; data-spm-anchor-id=&quot;a2c63.p38356.0.i23.27cfad12lpDjp0&quot; id=&quot;li-94z-iiq-2ai&quot; class=&quot;li&quot;&gt;aliuid（告警监控规则所属用户ID）&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 6px 0px; box-sizing: border-box; list-style: disc;&quot; data-spm-anchor-id=&quot;a2c63.p38356.0.i26.27cfad12lpDjp0&quot; id=&quot;li-rwo-5bd-euw&quot; class=&quot;li&quot;&gt;project（告警监控规则所在项目）&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 6px 0px; box-sizing: border-box; list-style: disc;&quot; id=&quot;li-12h-p3i-lls&quot; class=&quot;li&quot;&gt;alert_id（告警监控规则ID）&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 6px 0px; box-sizing: border-box; list-style: disc;&quot; id=&quot;li-7ad-3eb-o67&quot; class=&quot;li&quot;&gt;labels（告警标签）&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="92" y="880" width="710" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
